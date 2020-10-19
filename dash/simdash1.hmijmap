@@ -1,0 +1,28 @@
+{
+  "BindingsEx": {},
+  "RolesEx": {
+    "page1.speed": "SpeedRole;{}",
+    "page1.gear": "GearRole;{\r\n  \"RedlineBlink\": false,\r\n  \"BlinkColor\": \"#FFFF0000\",\r\n  \"BlinkDelay\": 250\r\n}",
+    "page1.rpm": "RPMRole;{}",
+    "page1.delta": "LiveDeltaRole;{\r\n  \"Precision\": 1\r\n}",
+    "page1.lap": "LapRole;{}",
+    "page1.lastlaptime": "LapLastTimeRole;{}",
+    "page1.bestlaptime": "LapBestTimeRole;{}",
+    "page1.laptime": "LapCurrentTimeRole;{\r\n  \"Precision\": 2\r\n}"
+  },
+  "ClickActionsEx": {},
+  "HotSpots": [],
+  "PagesMappings": [
+    {
+      "PageName": "page1",
+      "ConditionToPage": {
+        "Expression": null
+      },
+      "InGame": true,
+      "Idle": true,
+      "Skip": false
+    }
+  ],
+  "RefreshDelaysEx": {},
+  "VirtualPages": []
+}
